@@ -11,7 +11,7 @@ library(terra)
 library(tidyverse)
 library(Tjazi)
 ##################################### climatic and topographic variables ####################################################
-
+#
 ENVstack<-readRDS(file="../../spatial_data/ENVstack.rds")
 ENVstack<-terra::unwrap(ENVstack)
 # names(ENVstack)
